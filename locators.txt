@@ -2,13 +2,26 @@
 header form 
 header//orb-search-q  
 
+new:
+#orb-search-q
+//*[@id="orb-search-q"]
+
 2)//header//li[4]//a 
 header ul>li:nth-child(4) a
 
+new:
+.orb-nav-section .orb-nav-reeldotcom
+//*[@id="orb-nav-links"]//li[@class="orb-nav-reeldotcom"]
+
 3)//section[3]//a[@aria-hidden]
 section [rev="hero1|overlay"]
+
+new:
+.media--hero
+//div[@class="media media--hero media--primary media--overlay block-link"]
 
 4)nav li:nth-child(2n):not(.orb-nav-hide)
 //*[@id="orb-nav-links"]//li[(position() mod 2 = 0) and not (contains(@class, "orb-nav-hide"))]
 
 5)//*[contains(@class, "module--header")]/h2/text()
+
