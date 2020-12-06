@@ -17,7 +17,7 @@ describe('Search', () => {
         // ждем появление этого элемента (события presenceOf)
         await browser.wait(EC.presenceOf(input_button), 5000);
 
-        // пишем в элемент текст “protractor”
+        // пишем в элемент текст “yandex”
         await input_button.sendKeys("yandex");
 
         // создаем элемент кнопки сабмита по css

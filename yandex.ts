@@ -1,6 +1,5 @@
-describe(function() {
-    it( function() {
-      browser.get('http://www.yandex.com');
-    
+describe('angularjs homepage', function () {
+    it('should greet the named user', function () {
+        browser.get('http://www.yandex.com');
     });
-  });
+});
