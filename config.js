@@ -11,7 +11,7 @@ exports.config = {
   
     // Spec patterns are relative to the current working directly when
     // protractor is called.
-    specs: ['yandex.js'],
+    specs: ['sources/output_js/MyFirstTest.js'],
   
     // Options to be passed to Jasmine-node.
     jasmineNodeOpts: {
