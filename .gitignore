@@ -1,4 +1,3 @@
-errors.txt
-/logs
+/configs
 /node_modules
-/output_js
+/sources/output_js
