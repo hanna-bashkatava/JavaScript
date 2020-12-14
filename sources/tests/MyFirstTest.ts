@@ -17,7 +17,11 @@ describe('Search', () => {
         
         await browser.wait(EC.presenceOf(input_button), 10000);
 
-        
+        input_button.isDisplayed().then(disp => { console.log("isDisplayed:", disp); })
+
+        input_button.isEnabled().then(enab => { console.log("isEnabled:", enab); })
+
+                
         await input_button.sendKeys("yandex",protractor.Key.ENTER);
 
        
