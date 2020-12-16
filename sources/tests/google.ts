@@ -14,7 +14,6 @@ describe('Search', () => {
         
         let input_button = element(by.css("input[role='combobox']"));
 
-        await browser.sleep(1000000);
         await browser.wait(EC.presenceOf(input_button), 10000);
 
         input_button.isDisplayed().then(disp => { console.log("isDisplayed:", disp); })
