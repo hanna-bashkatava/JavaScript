@@ -1,4 +1,4 @@
-import { browser, by, element, protractor } from "protractor";
+import { browser, by, element, protractor} from "protractor";
 
 describe('Search', () => {
     it('Open google and find a text', async () => {
@@ -14,7 +14,7 @@ describe('Search', () => {
         
         let input_button = element(by.css("input[role='combobox']"));
 
-        
+        await browser.sleep(1000000);
         await browser.wait(EC.presenceOf(input_button), 10000);
 
         input_button.isDisplayed().then(disp => { console.log("isDisplayed:", disp); })
@@ -25,7 +25,8 @@ describe('Search', () => {
         await input_button.sendKeys("yandex",protractor.Key.ENTER);
 
        
-        await browser.wait(EC.urlContains('yandex'), 10000);
+        await browser.wait(EC.urlContains('yandex'), 10000); 
+
+        
     });
 });
-
