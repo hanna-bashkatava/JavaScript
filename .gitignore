@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 /configs
 /node_modules
 /sources/output_js
+=======
+/logs
+/node_modules
+/output_js
+>>>>>>> a626d43f924546090392db716c87ede1ad4513fd
