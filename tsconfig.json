@@ -3,7 +3,7 @@
       "lib": ["es6"],
       "strict": true,
       "outDir" : "sources/output_js",
-      "types" : ["jasmine", "node"]
+      "types" : ["jasmine"]
     },
     "exclude": [
       "node_modules/*"

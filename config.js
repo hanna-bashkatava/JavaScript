@@ -11,7 +11,7 @@ exports.config = {
   
     // Spec patterns are relative to the current working directly when
     // protractor is called.
-    specs: ['sources/output_js/MyFirstTest.js'],
+    specs: ['sources/output_js/google.js'],
   
     // Options to be passed to Jasmine-node.
     jasmineNodeOpts: {
@@ -19,3 +19,4 @@ exports.config = {
       defaultTimeoutInterval: 100000
     }
   };
+  
