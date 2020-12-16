@@ -29,4 +29,3 @@ describe('Search', () => {
     });
 });
 
-//google_test
