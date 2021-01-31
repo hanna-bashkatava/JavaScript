@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "YandexLogin",
+    "children" : [ {
+      "name" : "YandexLogin",
+      "uid" : "e1244829ccbe144d",
+      "parentUid" : "e305c4022f12a146a55ad73baac7b80b",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1611665019330,
+        "stop" : 0,
+        "duration" : -1611665019330
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e305c4022f12a146a55ad73baac7b80b"
+  } ],
+  "name" : "packages"
+}
