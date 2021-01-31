@@ -1,0 +1,11 @@
+[ {
+  "uid" : "e1244829ccbe144d",
+  "name" : "YandexLogin",
+  "time" : {
+    "start" : 1611665019330,
+    "stop" : 0,
+    "duration" : -1611665019330
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+} ]

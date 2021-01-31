@@ -1,0 +1,54 @@
+{
+  "uid" : "e1244829ccbe144d",
+  "name" : "YandexLogin",
+  "fullName" : "YandexLogin.YandexLogin",
+  "historyId" : "4d796aa8cb19152a5d8fff62ec0338b4",
+  "time" : {
+    "start" : 1611665019330,
+    "stop" : 0,
+    "duration" : -1611665019330
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "YandexLogin"
+  }, {
+    "name" : "testClass",
+    "value" : "YandexLogin"
+  }, {
+    "name" : "testMethod",
+    "value" : "YandexLogin"
+  }, {
+    "name" : "package",
+    "value" : "YandexLogin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "883af85628c2a350",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611665019330,
+        "stop" : 1611665029025,
+        "duration" : 9695
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e1244829ccbe144d.json",
+  "parameterValues" : [ ]
+}

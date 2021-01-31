@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "YandexLogin",
+    "children" : [ {
+      "name" : "YandexLogin",
+      "uid" : "e1244829ccbe144d",
+      "parentUid" : "31f79eb708931f667d3a3ce660bcabfb",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1611665019330,
+        "stop" : 0,
+        "duration" : -1611665019330
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "31f79eb708931f667d3a3ce660bcabfb"
+  } ],
+  "name" : "suites"
+}
