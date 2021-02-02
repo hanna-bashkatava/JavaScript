@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1612261786696' stop='1612261791054'>
+    <name>YandexNavigation</name>
+    <title>YandexNavigation</title>
+    <test-cases>
+        <test-case start='1612261786697' status='passed' stop='1612261791053'>
+            <name>YandexNavigation</name>
+            <title>YandexNavigation</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1612261788789' status='passed' stop='1612261788926'>
+                    <name>ClickOnVideoButton</name>
+                    <title>ClickOnVideoButton</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

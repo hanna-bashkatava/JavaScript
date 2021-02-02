@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1612128627956' stop='1612128634541'>
+    <name>YandexLogin</name>
+    <title>YandexLogin</title>
+    <test-cases>
+        <test-case start='1612128627956' status='passed' stop='1612128634540'>
+            <name>YandexLogin</name>
+            <title>YandexLogin</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1612128629529' status='passed' stop='1612128631680'>
+                    <name>inputInLoginField</name>
+                    <title>inputInLoginField</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1612128631680' status='passed' stop='1612128631738'>
+                    <name>ClickOnSubmitButton</name>
+                    <title>ClickOnSubmitButton</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1612128631738' status='passed' stop='1612128632042'>
+                    <name>inputInPassField</name>
+                    <title>inputInPassField</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1612128632042' status='passed' stop='1612128632105'>
+                    <name>ClickOnSubmitButton</name>
+                    <title>ClickOnSubmitButton</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,14 +1,47 @@
 {
-  "total" : 1,
+  "total" : 4,
   "items" : [ {
+    "uid" : "491295334edeeecb5826bb5218e0f861",
+    "name" : "YandexNavigation",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "31f79eb708931f667d3a3ce660bcabfb",
     "name" : "YandexLogin",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 1,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "3e7f87fc4db02e28695b45bcac3fa94b",
+    "name" : "YandexInvalidLogin",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "ad40a68c515e6a6008a0c653c199f5a4",
+    "name" : "LanguageSwitcher",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
       "total" : 1
     }
   } ]

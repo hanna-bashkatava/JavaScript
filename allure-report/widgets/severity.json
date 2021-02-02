@@ -1,11 +1,41 @@
 [ {
-  "uid" : "e1244829ccbe144d",
+  "uid" : "7415ada1b2cea6df",
   "name" : "YandexLogin",
   "time" : {
-    "start" : 1611665019330,
-    "stop" : 0,
-    "duration" : -1611665019330
+    "start" : 1612128627956,
+    "stop" : 1612128634540,
+    "duration" : 6584
   },
-  "status" : "unknown",
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f188b5fb1df76f5",
+  "name" : "YandexInvalidLogin",
+  "time" : {
+    "start" : 1612259586290,
+    "stop" : 1612259593385,
+    "duration" : 7095
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f97eef71190d8af",
+  "name" : "LanguageSwitcher",
+  "time" : {
+    "start" : 1612259751332,
+    "stop" : 1612259755172,
+    "duration" : 3840
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa3957efbb4088f1",
+  "name" : "YandexNavigation",
+  "time" : {
+    "start" : 1612260735078,
+    "stop" : 1612260779670,
+    "duration" : 44592
+  },
+  "status" : "failed",
   "severity" : "normal"
 } ]
