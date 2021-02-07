@@ -1,0 +1,73 @@
+{
+  "uid" : "66471170f2ef8104",
+  "name" : "YandexInvalidLogin",
+  "fullName" : "YandexInvalidLogin.YandexInvalidLogin",
+  "historyId" : "e35cf62a0047146053c54f5b02963f46",
+  "time" : {
+    "start" : 1612128915134,
+    "stop" : 1612128934308,
+    "duration" : 19174
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: Wait timed out after 15004ms",
+  "statusTrace" : "TimeoutError: Wait timed out after 15004ms\n                    at C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2201:17\n                    at ManagedPromise.invokeCallback_ (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n                    at TaskQueue.execute_ (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                    at C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n                    at C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                From: Task: <anonymous wait>\n                    at scheduleWait (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2188:20)\n                    at ControlFlow.wait (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2517:12)\n                    at Driver.wait (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:934:29)\n                    at run (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\browser.js:58:33)\n                    at ProtractorBrowser.to.<computed> [as wait] (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\browser.js:66:16)\n                    at D:\\Andersen\\Project\\JavaScript\\sources\\output_js\\tests\\invalid_login.js:67:63\n                    at step (D:\\Andersen\\Project\\JavaScript\\sources\\output_js\\tests\\invalid_login.js:33:23)\n                    at Object.next (D:\\Andersen\\Project\\JavaScript\\sources\\output_js\\tests\\invalid_login.js:14:53)\n                    at fulfilled (D:\\Andersen\\Project\\JavaScript\\sources\\output_js\\tests\\invalid_login.js:5:58)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                From: Task: Run it(\"YandexInvalidLogin\") in control flow\n                    at UserContext.<anonymous> (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n                    at attempt (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at QueueRunner.execute (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n                    at Spec.execute (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:526:10)\n                    at UserContext.fn (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5340:37)\n                    at attempt (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at QueueRunner.execute (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (D:\\Andersen\\Project\\JavaScript\\sources\\output_js\\tests\\invalid_login.js:45:5)\n                    at addSpecsToSuite (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n                    at Env.describe (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n                    at describe (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n                    at Object.<anonymous> (D:\\Andersen\\Project\\JavaScript\\sources\\output_js\\tests\\invalid_login.js:44:1)\n                    at Module._compile (internal/modules/cjs/loader.js:1015:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)\n                    at Module.load (internal/modules/cjs/loader.js:879:32)\n                    at Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: Wait timed out after 15004ms",
+    "statusTrace" : "TimeoutError: Wait timed out after 15004ms\n                    at C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2201:17\n                    at ManagedPromise.invokeCallback_ (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n                    at TaskQueue.execute_ (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                    at C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n                    at C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                From: Task: <anonymous wait>\n                    at scheduleWait (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2188:20)\n                    at ControlFlow.wait (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2517:12)\n                    at Driver.wait (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:934:29)\n                    at run (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\browser.js:58:33)\n                    at ProtractorBrowser.to.<computed> [as wait] (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\browser.js:66:16)\n                    at D:\\Andersen\\Project\\JavaScript\\sources\\output_js\\tests\\invalid_login.js:67:63\n                    at step (D:\\Andersen\\Project\\JavaScript\\sources\\output_js\\tests\\invalid_login.js:33:23)\n                    at Object.next (D:\\Andersen\\Project\\JavaScript\\sources\\output_js\\tests\\invalid_login.js:14:53)\n                    at fulfilled (D:\\Andersen\\Project\\JavaScript\\sources\\output_js\\tests\\invalid_login.js:5:58)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                From: Task: Run it(\"YandexInvalidLogin\") in control flow\n                    at UserContext.<anonymous> (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n                    at attempt (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at QueueRunner.execute (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n                    at Spec.execute (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:526:10)\n                    at UserContext.fn (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5340:37)\n                    at attempt (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at QueueRunner.execute (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (D:\\Andersen\\Project\\JavaScript\\sources\\output_js\\tests\\invalid_login.js:45:5)\n                    at addSpecsToSuite (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n                    at Env.describe (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n                    at describe (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n                    at Object.<anonymous> (D:\\Andersen\\Project\\JavaScript\\sources\\output_js\\tests\\invalid_login.js:44:1)\n                    at Module._compile (internal/modules/cjs/loader.js:1015:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)\n                    at Module.load (internal/modules/cjs/loader.js:879:32)\n                    at Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+    "steps" : [ {
+      "name" : "FailinputInLoginField",
+      "time" : {
+        "start" : 1612128917046,
+        "stop" : 1612128919298,
+        "duration" : 2252
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "YandexInvalidLogin"
+  }, {
+    "name" : "testClass",
+    "value" : "YandexInvalidLogin"
+  }, {
+    "name" : "testMethod",
+    "value" : "YandexInvalidLogin"
+  }, {
+    "name" : "package",
+    "value" : "YandexInvalidLogin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "66471170f2ef8104.json",
+  "parameterValues" : [ ]
+}

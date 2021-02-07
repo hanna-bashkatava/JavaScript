@@ -1,8 +1,12 @@
 import { browser, element, by, protractor} from 'protractor';
-      const EC = protractor.ExpectedConditions;       
+      const EC = protractor.ExpectedConditions; 
+import { Allure } from "../pages/allureSteps";
+import {waiters} from '../pages/waiters';    
+
+declare let allure: any;
             
                   
-export class HomePage {
+export class HomePageObject {
 
     LoginButton = element(by.css("[data-statlog='notifications.mail.logout.domik.login.big']"));
     VideoButton = element(by.css("[data-id='video']"));
@@ -17,72 +21,99 @@ export class HomePage {
     MoreButton = element(by.css("[data-statlog='services_new.more']"));
     LanguageButton = element(by.css(".b-langs"));
     MoreLanguageButton = element(by.css("[data-statlog='head.lang.more']"));
+    UkrLang = element(by.xpath("//a[contains(.,'Ukr')]"));
         
     async ClickOnLoginButton(): Promise<void> {
-        await browser.wait(EC.presenceOf(this.LoginButton), 10000);
-        await this.LoginButton.click();
-      }
-
-    async ClickOnVideoButton(): Promise<void> {
-        await browser.wait(EC.presenceOf(this.VideoButton), 10000);
-        await this.VideoButton.click();
+        await Allure.allureStep ("ClickOnLoginButton", async () => {
+        await waiters.waitAndClick(this.LoginButton);
+        });
     }
-
+    async ClickOnVideoButton(): Promise<void> {
+        await Allure.allureStep ("ClickOnVideoButton", async () => {
+        await waiters.waitAndClick(this.VideoButton);
+        });
+    }
     async ClickOnImagesButton(): Promise<void> {
-        await browser.wait(EC.presenceOf(this.ImagesButton), 10000);
-        await this.ImagesButton.click();
+        await Allure.allureStep ("ClickOnImagesButton", async () => {
+        await waiters.waitAndClick(this.ImagesButton);
+        });
     }
 
     async ClickOnNewsButton(): Promise<void> {
-        await browser.wait(EC.presenceOf(this.NewsButton), 10000);
-        await this.NewsButton.click();
+        await Allure.allureStep ("ClickOnNewsButton", async () => {
+        await waiters.waitAndClick(this.NewsButton);
+        });
     }
 
     async ClickOnMapsButton(): Promise<void> {
-        await browser.wait(EC.presenceOf(this.MapsButton), 10000);
-        await this.MapsButton.click();
+        await Allure.allureStep ("ClickOnMapsButton", async () => {
+        await waiters.waitAndClick(this.MapsButton);
+        });
     }
-
     async ClickOnMarketButton(): Promise<void> {
-        await browser.wait(EC.presenceOf(this.MarketButton), 10000);
-        await this.MarketButton.click();
+        await Allure.allureStep ("ClickOnMarketButton", async () => {
+        await waiters.waitAndClick(this.MarketButton);
+        });
     }
-
     
     async ClickOnTranslateButton(): Promise<void> {
-        await browser.wait(EC.presenceOf(this.TranslateButton), 10000);
-        await this.TranslateButton.click();
+        await Allure.allureStep ("ClickOnTranslateButton", async () => {
+        await waiters.waitAndClick(this.TranslateButton);
+        });
     }
 
     async ClickOnTvButton(): Promise<void> {
-        await browser.wait(EC.presenceOf(this.TvButton), 10000);
-        await this.TvButton.click();
+        await Allure.allureStep ("ClickOnTvButton", async () => {
+        await waiters.waitAndClick(this.TvButton);
+        });
     }
 
     async ClickOnMusicButton(): Promise<void> {
-        await browser.wait(EC.presenceOf(this.MusicButton), 10000);
-        await this.MusicButton.click();
+        await Allure.allureStep ("ClickOnMusicButton", async () => {
+        await waiters.waitAndClick(this.MusicButton);
+        });
     }
 
     async ClickOnTvonlineButton(): Promise<void> {
-        await browser.wait(EC.presenceOf(this.TvonlineButton), 10000);
-        await this.TvonlineButton.click();
+        await Allure.allureStep ("ClickOnTvonlineButton", async () => {
+        await waiters.waitAndClick(this.TvonlineButton);
+        });
     }
 
     async ClickOnMoreButton(): Promise<void> {
-        await browser.wait(EC.presenceOf(this.MoreButton), 10000);
-        await this.MoreButton.click();
+        await Allure.allureStep ("ClickOnMoreButton", async () => {
+        await waiters.waitAndClick(this.MoreButton);
+        });
     }
 
     async ClickOnLanguageButton() : Promise<void>{
-        await browser.wait(EC.presenceOf(this.LanguageButton), 10000);
-        await this.LanguageButton.click();
+        await Allure.allureStep ("ClickOnLanguageButton", async () => {
+        await waiters.waitAndClick(this.LanguageButton);
+        });
     }
 
     async ClickOnMoreLanguageButton(): Promise<void> {
-        await browser.wait(EC.presenceOf(this.MoreLanguageButton), 10000);
-        await this.MoreLanguageButton.click();
+        await Allure.allureStep ("ClickOnMoreLanguageButton", async () => {
+        await waiters.waitAndClick(this.MoreLanguageButton);
+        });
     }
 
-      
+    async CheckLogOut(): Promise<void> {
+        await Allure.allureStep ("CheckLogOut", async () => {
+        expect(await browser.getCurrentUrl()).toContain("https://passport.yandex.by/"); 
+        });
     }
+    
+    async checkUkrLang (): Promise <string> {
+        await Allure.allureStep ("checkUkrLang", async () => {
+        await browser.wait(EC.presenceOf(this.UkrLang), 10000);
+      });
+        return this.UkrLang.getText();
+      
+      }
+      
+}
+
+export const HomePage = new HomePageObject();
+
+    

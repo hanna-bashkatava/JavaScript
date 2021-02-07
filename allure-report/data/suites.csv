@@ -1,2 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"unknown","Tue Jan 26 15:43:39 MSK 2021","Thu Jan 01 03:00:00 MSK 1970","-1611665019330","","YandexLogin","","YandexLogin","YandexLogin","YandexLogin",""
+"passed","Tue Feb 02 12:53:06 MSK 2021","Tue Feb 02 12:53:13 MSK 2021","7095","","YandexInvalidLogin","","YandexInvalidLogin","YandexInvalidLogin","YandexInvalidLogin",""
+"failed","Tue Feb 02 13:12:15 MSK 2021","Tue Feb 02 13:12:59 MSK 2021","44592","","YandexNavigation","","YandexNavigation","YandexNavigation","YandexNavigation",""
+"passed","Mon Feb 01 00:30:27 MSK 2021","Mon Feb 01 00:30:34 MSK 2021","6584","","YandexLogin","","YandexLogin","YandexLogin","YandexLogin",""
+"passed","Tue Feb 02 12:55:51 MSK 2021","Tue Feb 02 12:55:55 MSK 2021","3840","","LanguageSwitcher","","LanguageSwitcher","LanguageSwitcher","LanguageSwitcher",""

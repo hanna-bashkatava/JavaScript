@@ -1,12 +1,12 @@
 {
-  "uid" : "e1244829ccbe144d",
+  "uid" : "92025ca00b21b8cf",
   "name" : "YandexLogin",
   "fullName" : "YandexLogin.YandexLogin",
   "historyId" : "4d796aa8cb19152a5d8fff62ec0338b4",
   "time" : {
-    "start" : 1611665019330,
+    "start" : 1612126058254,
     "stop" : 0,
-    "duration" : -1611665019330
+    "duration" : -1612126058254
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -33,22 +33,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "883af85628c2a350",
-      "status" : "passed",
-      "time" : {
-        "start" : 1611665019330,
-        "stop" : 1611665029025,
-        "duration" : 9695
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e1244829ccbe144d.json",
+  "source" : "92025ca00b21b8cf.json",
   "parameterValues" : [ ]
 }

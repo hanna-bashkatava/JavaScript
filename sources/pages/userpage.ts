@@ -1,19 +1,33 @@
 import { browser, element, by, protractor} from 'protractor';
-      const EC = protractor.ExpectedConditions;           
-                  
-export class UserPage {
+      const EC = protractor.ExpectedConditions; 
+      import {waiters} from '../pages/waiters';          
+      import { Allure } from "../pages/allureSteps"; 
+
+export class UserPageObject {
 
   AvatarButton = element(by.css(".user-account__pic .user-pic__image"));
   LogOutButton = element(by.css("[aria-label='Выйти из аккаунта']"));
+  UserName = element(by.css(".user-account_left-name span.user-account__name"));
 
     async ClickOnAvatarButton(): Promise<void> {
-      await browser.wait(EC.presenceOf(this.AvatarButton), 10000);
-      await this.AvatarButton.click();
-  }
+      await Allure.allureStep ("ClickOnAvatarButton", async () => {
+      await waiters.waitAndClick(this.AvatarButton);
+      });
+    }
 
     async ClickLogOutButton (): Promise<void> {
-    await browser.wait(EC.presenceOf(this.LogOutButton), 10000);
-    await this.LogOutButton.click();
+      await Allure.allureStep ("ClickLogOutButton", async () => {
+      await waiters.waitAndClick(this.LogOutButton);
+      });
+    }
+
+    async CheckUsername(): Promise<void> {
+      await Allure.allureStep ("CheckUsername", async () => {
+      await browser.wait(EC.presenceOf(this.UserName), 10000);
+      expect(this.UserName.isDisplayed());
+      });
+    }  
+
 }
 
-  }
+export const UserPage =new UserPageObject;

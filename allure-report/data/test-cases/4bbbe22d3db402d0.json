@@ -1,0 +1,99 @@
+{
+  "uid" : "4bbbe22d3db402d0",
+  "name" : "YandexLogin",
+  "fullName" : "YandexLogin.YandexLogin",
+  "historyId" : "4d796aa8cb19152a5d8fff62ec0338b4",
+  "time" : {
+    "start" : 1612126525493,
+    "stop" : 1612126532683,
+    "duration" : 7190
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "inputInLoginField",
+      "time" : {
+        "start" : 1612126527442,
+        "stop" : 1612126529543,
+        "duration" : 2101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "ClickOnSubmitButton",
+      "time" : {
+        "start" : 1612126529543,
+        "stop" : 1612126529608,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "ClickOnSubmitButton",
+      "time" : {
+        "start" : 1612126529942,
+        "stop" : 1612126530006,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "YandexLogin"
+  }, {
+    "name" : "testClass",
+    "value" : "YandexLogin"
+  }, {
+    "name" : "testMethod",
+    "value" : "YandexLogin"
+  }, {
+    "name" : "package",
+    "value" : "YandexLogin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4bbbe22d3db402d0.json",
+  "parameterValues" : [ ]
+}

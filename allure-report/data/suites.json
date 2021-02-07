@@ -1,22 +1,73 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
   "children" : [ {
     "name" : "YandexLogin",
     "children" : [ {
       "name" : "YandexLogin",
-      "uid" : "e1244829ccbe144d",
+      "uid" : "7415ada1b2cea6df",
       "parentUid" : "31f79eb708931f667d3a3ce660bcabfb",
-      "status" : "unknown",
+      "status" : "passed",
       "time" : {
-        "start" : 1611665019330,
-        "stop" : 0,
-        "duration" : -1611665019330
+        "start" : 1612128627956,
+        "stop" : 1612128634540,
+        "duration" : 6584
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
     "uid" : "31f79eb708931f667d3a3ce660bcabfb"
-  } ],
-  "name" : "suites"
+  }, {
+    "name" : "YandexInvalidLogin",
+    "children" : [ {
+      "name" : "YandexInvalidLogin",
+      "uid" : "1f188b5fb1df76f5",
+      "parentUid" : "3e7f87fc4db02e28695b45bcac3fa94b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612259586290,
+        "stop" : 1612259593385,
+        "duration" : 7095
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3e7f87fc4db02e28695b45bcac3fa94b"
+  }, {
+    "name" : "LanguageSwitcher",
+    "children" : [ {
+      "name" : "LanguageSwitcher",
+      "uid" : "5f97eef71190d8af",
+      "parentUid" : "ad40a68c515e6a6008a0c653c199f5a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612259751332,
+        "stop" : 1612259755172,
+        "duration" : 3840
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ad40a68c515e6a6008a0c653c199f5a4"
+  }, {
+    "name" : "YandexNavigation",
+    "children" : [ {
+      "name" : "YandexNavigation",
+      "uid" : "fa3957efbb4088f1",
+      "parentUid" : "491295334edeeecb5826bb5218e0f861",
+      "status" : "failed",
+      "time" : {
+        "start" : 1612260735078,
+        "stop" : 1612260779670,
+        "duration" : 44592
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "491295334edeeecb5826bb5218e0f861"
+  } ]
 }

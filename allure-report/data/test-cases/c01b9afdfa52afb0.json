@@ -1,0 +1,73 @@
+{
+  "uid" : "c01b9afdfa52afb0",
+  "name" : "YandexNavigation",
+  "fullName" : "YandexNavigation.YandexNavigation",
+  "historyId" : "1b3d4798dfd9ecdcfd300e44f134726e",
+  "time" : {
+    "start" : 1612260083874,
+    "stop" : 1612260091025,
+    "duration" : 7151
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected null to contain 'https://yandex.by/video'.",
+  "statusTrace" : "Error: Failed expectation\n                    at D:\\Andersen\\Project\\JavaScript\\sources\\output_js\\tests\\navigations.js:66:41\n                    at ManagedPromise.invokeCallback_ (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n                    at TaskQueue.execute_ (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                    at C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n                    at C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected null to contain 'https://yandex.by/video'.",
+    "statusTrace" : "Error: Failed expectation\n                    at D:\\Andersen\\Project\\JavaScript\\sources\\output_js\\tests\\navigations.js:66:41\n                    at ManagedPromise.invokeCallback_ (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n                    at TaskQueue.execute_ (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                    at C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n                    at C:\\Users\\anduser\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    "steps" : [ {
+      "name" : "ClickOnVideoButton",
+      "time" : {
+        "start" : 1612260085630,
+        "stop" : 1612260085861,
+        "duration" : 231
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "YandexNavigation"
+  }, {
+    "name" : "testClass",
+    "value" : "YandexNavigation"
+  }, {
+    "name" : "testMethod",
+    "value" : "YandexNavigation"
+  }, {
+    "name" : "package",
+    "value" : "YandexNavigation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c01b9afdfa52afb0.json",
+  "parameterValues" : [ ]
+}
