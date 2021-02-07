@@ -6,7 +6,7 @@ import { browser, element, by, protractor} from 'protractor';
 export class UserPageObject {
 
   AvatarButton = element(by.css(".user-account__pic .user-pic__image"));
-  LogOutButton = element(by.css("[aria-label='Выйти из аккаунта']"));
+  LogOutButton = element(by.css("a.legouser__menu-item_action_exit"));
   UserName = element(by.css(".user-account_left-name span.user-account__name"));
 
     async ClickOnAvatarButton(): Promise<void> {

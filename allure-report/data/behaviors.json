@@ -1,57 +1,5 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
-  "children" : [ {
-    "name" : "YandexLogin",
-    "uid" : "7415ada1b2cea6df",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1612128627956,
-      "stop" : 1612128634540,
-      "duration" : 6584
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "YandexInvalidLogin",
-    "uid" : "1f188b5fb1df76f5",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1612259586290,
-      "stop" : 1612259593385,
-      "duration" : 7095
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "LanguageSwitcher",
-    "uid" : "5f97eef71190d8af",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1612259751332,
-      "stop" : 1612259755172,
-      "duration" : 3840
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "YandexNavigation",
-    "uid" : "fa3957efbb4088f1",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
-    "time" : {
-      "start" : 1612260735078,
-      "stop" : 1612260779670,
-      "duration" : 44592
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  } ]
+  "children" : [ ]
 }

@@ -1,2 +1,4 @@
 /sources/output_js
 node_modules
+allure-results
+allure-report
