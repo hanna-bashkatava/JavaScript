@@ -4,7 +4,10 @@
   "description": "",
   "main": "protractor.js",
   "scripts": {
-    "test": "protractor output-js/config.js"
+    "update": "webdriver-manager update",
+    "pretest":"tsc",
+    "test": "protractor config_chrome.js",
+    "posttest":"allure generate allure-results --clean && allure open"
   },
   "repository": {
     "type": "git",
