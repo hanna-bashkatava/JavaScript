@@ -3,6 +3,7 @@ exports.config = {
     seleniumAddress: 'http://localhost:4444/wd/hub',
     baseUrl: 'https://yandex.by',
     takeScreenshotFromEachAllureStep:true,
+    seleniumArgs: ['-Dwebdriver.edge.driver=C:/edgedriver_win64/MicrosoftWebDriver.exe'],
     multiCapabilities: [{
     'browserName': 'MicrosoftEdge',
     edgeOptions: {

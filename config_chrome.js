@@ -11,7 +11,7 @@
 }
 }],
 
-specs: ['sources/output_js/tests/login.js'],
+ specs: ['sources/output_js/tests/market_compare_test.js'],
 
   onPrepare: function () {
   browser.waitForAngularEnabled(false)
@@ -19,8 +19,10 @@ specs: ['sources/output_js/tests/login.js'],
   const allureReporter = new AllureReporter({
   resultsDir: 'allure-results'
   });
+  
   jasmine.getEnv().addReporter(allureReporter);
   }
+
 };
     
 

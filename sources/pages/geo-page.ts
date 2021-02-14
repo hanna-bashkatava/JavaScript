@@ -1,6 +1,5 @@
 import { browser, by, element, protractor} from "protractor";
-let EC = protractor.ExpectedConditions;
-
+const EC = protractor.ExpectedConditions;
 
 export class GeoPage {
 
@@ -19,7 +18,6 @@ export class GeoPage {
     
 
     static async clearInputBox() {
-        
         await browser.wait(EC.presenceOf(GeoPage.inputBox()), 10000);
         await GeoPage.inputBox().clear();         
     }
