@@ -1,1 +1,60 @@
-{ }
+{
+  "1b3d4798dfd9ecdcfd300e44f134726e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "59286135455ceae2",
+      "status" : "failed",
+      "statusDetails" : "Failed: HTTP method not allowed",
+      "time" : {
+        "start" : 1612696397302,
+        "stop" : 1612696399237,
+        "duration" : 1935
+      }
+    } ]
+  },
+  "52b59c621846cc6a00df13f07a43dd6b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "811d5024762faadf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612701845392,
+        "stop" : 1612701855378,
+        "duration" : 9986
+      }
+    } ]
+  },
+  "4d796aa8cb19152a5d8fff62ec0338b4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "510ecc45635cfaab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612701876026,
+        "stop" : 1612701881722,
+        "duration" : 5696
+      }
+    } ]
+  }
+}
