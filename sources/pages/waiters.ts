@@ -7,18 +7,19 @@ export async function waitForElementVisible(elementFinder: ElementFinder, timeou
 export class Waiters {
 	
 	async clickElementAction(element: ElementFinder) {
-		await browser
-		  .actions()
-		  .click(element)
-		  .perform();
-	  }
+		await element.click();
+		    	
+		//   .actions()
+		//   .click(element)
+		//   .perform();
+	}
 	async waitForClickable(element: ElementFinder) {
 		const EC = protractor.ExpectedConditions;
-			await browser.wait(EC.elementToBeClickable(element), 5000);
-	  }
-	  async waitAndClick(element: ElementFinder): Promise<void>{
+		await browser.wait(EC.elementToBeClickable(element), 5000);
+	}
+	async waitAndClick(element: ElementFinder): Promise<void>{
 		await this.waitForClickable(element);
 		await this.clickElementAction(element);
-	  }
+	}
 }
 export const waiters = new Waiters();

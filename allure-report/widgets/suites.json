@@ -1,4 +1,37 @@
 {
-  "total" : 0,
-  "items" : [ ]
+  "total" : 3,
+  "items" : [ {
+    "uid" : "491295334edeeecb5826bb5218e0f861",
+    "name" : "YandexNavigation",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "694098bd25c4a2f5e6804c20df777178",
+    "name" : "YandexLogout",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "31f79eb708931f667d3a3ce660bcabfb",
+    "name" : "YandexLogin",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
 }

@@ -11,18 +11,20 @@
 }
 }],
 
-specs: ['sources/output_js/tests/navigations.js'],
+specs: ['sources/output_js/tests/login.js'],
 
-onPrepare: function () {
+  onPrepare: function () {
   browser.waitForAngularEnabled(false)
   const AllureReporter = require('jasmine-allure-reporter');
   const allureReporter = new AllureReporter({
   resultsDir: 'allure-results'
-});
+  });
   jasmine.getEnv().addReporter(allureReporter);
-}
-  };
-  
+  }
+};
+    
+
+
   
   
     

@@ -1,1 +1,31 @@
-[ ]
+[ {
+  "uid" : "811d5024762faadf",
+  "name" : "YandexLogout",
+  "time" : {
+    "start" : 1612701845392,
+    "stop" : 1612701855378,
+    "duration" : 9986
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "510ecc45635cfaab",
+  "name" : "YandexLogin",
+  "time" : {
+    "start" : 1612701876026,
+    "stop" : 1612701881722,
+    "duration" : 5696
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59286135455ceae2",
+  "name" : "YandexNavigation",
+  "time" : {
+    "start" : 1612696397302,
+    "stop" : 1612696399237,
+    "duration" : 1935
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
