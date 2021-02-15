@@ -11,7 +11,7 @@
 }
 }],
 
- specs: ['sources/output_js/tests/market_compare_test.js'],
+ specs: ['sources/output_js/tests/*test.js'],
 
   onPrepare: function () {
   browser.waitForAngularEnabled(false)

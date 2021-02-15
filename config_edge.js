@@ -11,7 +11,7 @@ exports.config = {
   }
   }],
   
-  specs: ['sources/output_js/tests/login.js'],
+  specs: ['sources/output_js/tests/*test.js'],
   
     onPrepare: function () {
     browser.waitForAngularEnabled(false)

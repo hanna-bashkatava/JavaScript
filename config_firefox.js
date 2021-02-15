@@ -8,7 +8,7 @@
     'browserName': 'firefox',
     }],
   
-  specs: ['sources/output_js/tests/navigations.js'],
+  specs: ['sources/output_js/tests/*test.js'],
   
   onPrepare: function () {
     browser.waitForAngularEnabled(false)
