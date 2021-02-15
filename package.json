@@ -5,7 +5,7 @@
   "main": "protractor.js",
   "scripts": {
     "update": "webdriver-manager update",
-    "pretest":"tsc",
+    "pretest":"npm run update & tsc",
     "test": "protractor config_chrome.js",
     "posttest":"allure generate allure-results --clean && allure open"
   },

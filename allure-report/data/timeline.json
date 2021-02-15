@@ -3,228 +3,20 @@
   "name" : "timeline",
   "children" : [ {
     "name" : "YandexLogin",
-    "uid" : "24448a6ef36e4edb",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1612700976001,
-      "stop" : 1612700989928,
-      "duration" : 13927
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "YandexLogin",
-    "uid" : "7084b179d12efd24",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1612697561799,
-      "stop" : 1612697575843,
-      "duration" : 14044
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "YandexLogin",
-    "uid" : "886b0edfe2b5d9c5",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1612696871992,
-      "stop" : 1612696874434,
-      "duration" : 2442
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "YandexLogin",
-    "uid" : "c3b6ce76ee826663",
+    "uid" : "e5d72a8cb4cb47ef",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1612701594127,
-      "stop" : 1612701599728,
-      "duration" : 5601
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "YandexLogin",
-    "uid" : "ee609eb5f50ccd3a",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1612700915833,
-      "stop" : 1612700929950,
-      "duration" : 14117
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "YandexLogin",
-    "uid" : "914d8f867811a8a8",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1612700854403,
-      "stop" : 1612700868210,
-      "duration" : 13807
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "YandexLogin",
-    "uid" : "75b17d183ffe570d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1612697846341,
-      "stop" : 1612697851345,
-      "duration" : 5004
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "YandexLogin",
-    "uid" : "1d1f540bddaa4829",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1612697987510,
-      "stop" : 1612697992556,
-      "duration" : 5046
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "YandexLogin",
-    "uid" : "9f05628dc847433c",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1612697067015,
-      "stop" : 1612697069788,
-      "duration" : 2773
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "YandexLogin",
-    "uid" : "9aa3e817f2912c8c",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1612701793818,
-      "stop" : 1612701807600,
-      "duration" : 13782
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "YandexLogin",
-    "uid" : "510ecc45635cfaab",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1612701876026,
-      "stop" : 1612701881722,
-      "duration" : 5696
+      "start" : 1613345151422,
+      "stop" : 1613345159292,
+      "duration" : 7870
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "YandexLogout",
-    "uid" : "811d5024762faadf",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1612701845392,
-      "stop" : 1612701855378,
-      "duration" : 9986
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "YandexLogin",
-    "uid" : "65183fdb369f6f2",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1612697144258,
-      "stop" : 1612697146274,
-      "duration" : 2016
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "YandexLogin",
-    "uid" : "1f13fc730695b6a3",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1612697813537,
-      "stop" : 1612697815343,
-      "duration" : 1806
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "YandexLogin",
-    "uid" : "723e8e2af0b93861",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1612696064981,
-      "stop" : 1612696072875,
-      "duration" : 7894
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "YandexLogin",
-    "uid" : "26a9d2354de3920d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1612697924490,
-      "stop" : 1612697931163,
-      "duration" : 6673
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "YandexLogin",
-    "uid" : "ee7c116821229e8b",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1612697717268,
-      "stop" : 1612697734509,
-      "duration" : 17241
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "YandexLogout",
-    "uid" : "d6195baa88b1ba52",
+    "uid" : "50fd191aa2bad13d",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -237,20 +29,124 @@
     "parameters" : [ ]
   }, {
     "name" : "YandexLogin",
-    "uid" : "2d1a4af0a5f8755f",
+    "uid" : "e405577bdc4ea1a9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1612701876026,
+      "stop" : 1612701881722,
+      "duration" : 5696
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "YandexLogin",
+    "uid" : "4bfd0e4db11edc50",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1612701594127,
+      "stop" : 1612701599728,
+      "duration" : 5601
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "YandexLogin",
+    "uid" : "fc9032029f8cf69",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "failed",
     "time" : {
-      "start" : 1612697460144,
-      "stop" : 1612697462550,
-      "duration" : 2406
+      "start" : 1612702328562,
+      "stop" : 1612702344765,
+      "duration" : 16203
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "YandexLogin",
+    "uid" : "d9b9c23a7bda01d9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1612701793818,
+      "stop" : 1612701807600,
+      "duration" : 13782
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "YandexLogin",
+    "uid" : "627646ec4a94ab61",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1612697067015,
+      "stop" : 1612697069788,
+      "duration" : 2773
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "YandexLogin",
+    "uid" : "df34f45b9940183e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1612696871992,
+      "stop" : 1612696874434,
+      "duration" : 2442
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "YandexLogin",
+    "uid" : "f3eb92ffdc9690bb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1612697924490,
+      "stop" : 1612697931163,
+      "duration" : 6673
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "YandexLogin",
+    "uid" : "816c80aa7d43df47",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1612697717268,
+      "stop" : 1612697734509,
+      "duration" : 17241
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "YandexLogin",
+    "uid" : "f79a761adf29af0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1612696064981,
+      "stop" : 1612696072875,
+      "duration" : 7894
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "YandexNavigation",
-    "uid" : "59286135455ceae2",
+    "uid" : "a098dc9b868b6515",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "failed",
     "time" : {
@@ -263,7 +159,98 @@
     "parameters" : [ ]
   }, {
     "name" : "YandexLogin",
-    "uid" : "2a3f7144bc388d42",
+    "uid" : "a4f68701788ba476",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1612697987510,
+      "stop" : 1612697992556,
+      "duration" : 5046
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "YandexLogin",
+    "uid" : "776c1390a397d06a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1612697813537,
+      "stop" : 1612697815343,
+      "duration" : 1806
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Yandex compare test",
+    "uid" : "280e066d95673168",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613345447099,
+      "stop" : 1613345456112,
+      "duration" : 9013
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "YandexLogin",
+    "uid" : "48d6ddce83957301",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1612700976001,
+      "stop" : 1612700989928,
+      "duration" : 13927
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Yandex sort by price",
+    "uid" : "769fb64d58d3f3f1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1613345583537,
+      "stop" : 1613345598985,
+      "duration" : 15448
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "YandexLogin",
+    "uid" : "c859019478c97595",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613345131139,
+      "stop" : 1613345137135,
+      "duration" : 5996
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "YandexLogin",
+    "uid" : "432b3f16e7175964",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1612700915833,
+      "stop" : 1612700929950,
+      "duration" : 14117
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "YandexLogin",
+    "uid" : "ee901f5f5b2afc6f",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "failed",
     "time" : {
@@ -275,14 +262,144 @@
     "newFailed" : false,
     "parameters" : [ ]
   }, {
+    "name" : "YandexLogin",
+    "uid" : "1d941157d0cf11e4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1612697846341,
+      "stop" : 1612697851345,
+      "duration" : 5004
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "YandexLogin",
+    "uid" : "63b2ba304ec16e94",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1612700854403,
+      "stop" : 1612700868210,
+      "duration" : 13807
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "YandexLogin",
+    "uid" : "81a7cb172319a9df",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1612697144258,
+      "stop" : 1612697146274,
+      "duration" : 2016
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
     "name" : "YandexNavigation",
-    "uid" : "e2f0c9a75ab19b52",
+    "uid" : "5634d2e8970882cb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1612702369971,
+      "stop" : 1612702387203,
+      "duration" : 17232
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "YandexLogin",
+    "uid" : "f775b4d38a5143b2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1612697561799,
+      "stop" : 1612697575843,
+      "duration" : 14044
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Yandex delete added products",
+    "uid" : "8b40a7a6483819d0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1613345480189,
+      "stop" : 1613345490583,
+      "duration" : 10394
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "YandexNavigation",
+    "uid" : "6086962a292dc95",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "failed",
     "time" : {
       "start" : 1612696175460,
       "stop" : 1612696178901,
       "duration" : 3441
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "YandexLogin",
+    "uid" : "29953f5b699d2a9e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613340242284,
+      "stop" : 1613340249402,
+      "duration" : 7118
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Yandex compare test",
+    "uid" : "90065520a0fc77f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613373357010,
+      "stop" : 1613373372996,
+      "duration" : 15986
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "YandexLogout",
+    "uid" : "3b945f4add577c46",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1612701845392,
+      "stop" : 1612701855378,
+      "duration" : 9986
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "YandexLogin",
+    "uid" : "c9f5a49df5f30654",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1612697460144,
+      "stop" : 1612697462550,
+      "duration" : 2406
     },
     "flaky" : false,
     "newFailed" : false,

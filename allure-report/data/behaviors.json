@@ -2,21 +2,8 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "YandexNavigation",
-    "uid" : "59286135455ceae2",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
-    "time" : {
-      "start" : 1612696397302,
-      "stop" : 1612696399237,
-      "duration" : 1935
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
     "name" : "YandexLogout",
-    "uid" : "811d5024762faadf",
+    "uid" : "3b945f4add577c46",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -28,14 +15,66 @@
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "YandexLogin",
-    "uid" : "510ecc45635cfaab",
+    "name" : "YandexNavigation",
+    "uid" : "5634d2e8970882cb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1612701876026,
-      "stop" : 1612701881722,
-      "duration" : 5696
+      "start" : 1612702369971,
+      "stop" : 1612702387203,
+      "duration" : 17232
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "YandexLogin",
+    "uid" : "e5d72a8cb4cb47ef",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613345151422,
+      "stop" : 1613345159292,
+      "duration" : 7870
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Yandex delete added products",
+    "uid" : "8b40a7a6483819d0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1613345480189,
+      "stop" : 1613345490583,
+      "duration" : 10394
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Yandex sort by price",
+    "uid" : "769fb64d58d3f3f1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1613345583537,
+      "stop" : 1613345598985,
+      "duration" : 15448
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Yandex compare test",
+    "uid" : "90065520a0fc77f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1613373357010,
+      "stop" : 1613373372996,
+      "duration" : 15986
     },
     "flaky" : false,
     "newFailed" : false,
