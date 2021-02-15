@@ -1,8 +1,19 @@
 {
-  "total" : 3,
+  "total" : 6,
   "items" : [ {
-    "uid" : "491295334edeeecb5826bb5218e0f861",
-    "name" : "YandexNavigation",
+    "uid" : "accef7fb26fff3416c1c0ff4aec02a82",
+    "name" : "Yandex delete added products",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "2f2573ab89e552f3a876f809fab6e76c",
+    "name" : "Yandex sort by price",
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -23,8 +34,30 @@
       "total" : 1
     }
   }, {
+    "uid" : "491295334edeeecb5826bb5218e0f861",
+    "name" : "YandexNavigation",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "31f79eb708931f667d3a3ce660bcabfb",
     "name" : "YandexLogin",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "441cca94bea0fc85596741a62714f210",
+    "name" : "Yandex compare test",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

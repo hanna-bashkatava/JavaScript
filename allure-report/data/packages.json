@@ -2,27 +2,10 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "YandexNavigation",
-    "children" : [ {
-      "name" : "YandexNavigation",
-      "uid" : "59286135455ceae2",
-      "parentUid" : "2dd7d7861f552f453d1c03092ef8b76c",
-      "status" : "failed",
-      "time" : {
-        "start" : 1612696397302,
-        "stop" : 1612696399237,
-        "duration" : 1935
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "2dd7d7861f552f453d1c03092ef8b76c"
-  }, {
     "name" : "YandexLogout",
     "children" : [ {
       "name" : "YandexLogout",
-      "uid" : "811d5024762faadf",
+      "uid" : "3b945f4add577c46",
       "parentUid" : "84dcc8eb2ba40d565b891a9b8bc15faf",
       "status" : "passed",
       "time" : {
@@ -36,21 +19,89 @@
     } ],
     "uid" : "84dcc8eb2ba40d565b891a9b8bc15faf"
   }, {
+    "name" : "YandexNavigation",
+    "children" : [ {
+      "name" : "YandexNavigation",
+      "uid" : "5634d2e8970882cb",
+      "parentUid" : "2dd7d7861f552f453d1c03092ef8b76c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612702369971,
+        "stop" : 1612702387203,
+        "duration" : 17232
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2dd7d7861f552f453d1c03092ef8b76c"
+  }, {
     "name" : "YandexLogin",
     "children" : [ {
       "name" : "YandexLogin",
-      "uid" : "510ecc45635cfaab",
+      "uid" : "e5d72a8cb4cb47ef",
       "parentUid" : "e305c4022f12a146a55ad73baac7b80b",
       "status" : "passed",
       "time" : {
-        "start" : 1612701876026,
-        "stop" : 1612701881722,
-        "duration" : 5696
+        "start" : 1613345151422,
+        "stop" : 1613345159292,
+        "duration" : 7870
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
     "uid" : "e305c4022f12a146a55ad73baac7b80b"
+  }, {
+    "name" : "Yandex delete added products",
+    "children" : [ {
+      "name" : "Yandex delete added products",
+      "uid" : "8b40a7a6483819d0",
+      "parentUid" : "69dc9403981b50f64d2f4b6e0885a3ef",
+      "status" : "failed",
+      "time" : {
+        "start" : 1613345480189,
+        "stop" : 1613345490583,
+        "duration" : 10394
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "69dc9403981b50f64d2f4b6e0885a3ef"
+  }, {
+    "name" : "Yandex sort by price",
+    "children" : [ {
+      "name" : "Yandex sort by price",
+      "uid" : "769fb64d58d3f3f1",
+      "parentUid" : "0ec96b70f55436515f7dce97a26c29a5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1613345583537,
+        "stop" : 1613345598985,
+        "duration" : 15448
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0ec96b70f55436515f7dce97a26c29a5"
+  }, {
+    "name" : "Yandex compare test",
+    "children" : [ {
+      "name" : "Yandex compare test",
+      "uid" : "90065520a0fc77f",
+      "parentUid" : "9294c4653ec094001fbcab7f13e2af19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613373357010,
+        "stop" : 1613373372996,
+        "duration" : 15986
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9294c4653ec094001fbcab7f13e2af19"
   } ]
 }

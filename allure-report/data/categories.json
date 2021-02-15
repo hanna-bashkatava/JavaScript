@@ -4,22 +4,39 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Failed: HTTP method not allowed",
+      "name" : "Expected 'Смартфон Xiaomi Redmi Note 8 4/64GB' to equal 'Смартфон Xiaomi Redmi Note 8 4/64GB, черный космос'.",
       "children" : [ {
-        "name" : "YandexNavigation",
-        "uid" : "59286135455ceae2",
-        "parentUid" : "b584c060eb38fda2171e20cf74fd8634",
+        "name" : "Yandex delete added products",
+        "uid" : "8b40a7a6483819d0",
+        "parentUid" : "063368fcbe256e74b9d31fd706ff892c",
         "status" : "failed",
         "time" : {
-          "start" : 1612696397302,
-          "stop" : 1612696399237,
-          "duration" : 1935
+          "start" : 1613345480189,
+          "stop" : 1613345490583,
+          "duration" : 10394
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "b584c060eb38fda2171e20cf74fd8634"
+      "uid" : "063368fcbe256e74b9d31fd706ff892c"
+    }, {
+      "name" : "Failed: Wait timed out after 5005ms",
+      "children" : [ {
+        "name" : "Yandex sort by price",
+        "uid" : "769fb64d58d3f3f1",
+        "parentUid" : "c529087f71634944ef887cd7a23caada",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613345583537,
+          "stop" : 1613345598985,
+          "duration" : 15448
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c529087f71634944ef887cd7a23caada"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
